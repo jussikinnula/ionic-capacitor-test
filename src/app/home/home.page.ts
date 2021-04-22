@@ -7,7 +7,7 @@ import { environment } from '../../environments/environment';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  buildTime = environment.buildTime;
+  buildId = environment.buildId;
 
   constructor() {}
 

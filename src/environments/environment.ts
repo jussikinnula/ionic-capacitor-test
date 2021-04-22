@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  buildTime: new Date().toString(),
+  buildId: JSON.stringify(process.env.CI_BUILD_ID),
 };
 
 /*
