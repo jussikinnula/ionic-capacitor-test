@@ -1,6 +1,6 @@
 // https://ferie.medium.com/how-to-pass-environment-variables-at-building-time-in-an-angular-application-using-env-files-4ae1a80383c
-import fs from 'fs';
-import path from 'path';
+const fs = require('fs');
+const path = require('path');
 
 const targetPath = 'src/environments';
 const targetFile = 'environment.ts'
